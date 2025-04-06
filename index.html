@@ -101,13 +101,40 @@
       font-size: 1.1em;
       text-decoration: none;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
+    }@media screen and (max-width: 768px) {
+  .logo img {
+    width: 80%;
+    max-width: 280px;
+  }
+  .hero h2 {
+    font-size: 1.8em;
+  }
+  .hero p, .section p {
+    font-size: 1em;
+    padding: 0 15px;
+  }
+  form input, form textarea {
+    width: 90%;
+    max-width: 100%;
+  }
+  form button {
+    width: 90%;
+  }
+  .section h3 {
+    font-size: 1.6em;
+  }
+  .cta a {
+    font-size: 1em;
+    padding: 12px 25px;
+  }
+}
+
   </style>
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="logo.png" alt="ShieldFraud Logo" style="width: 580px; height: auto; display: block; margin: 0 auto;">
+      <img src="logo.png" alt="ShieldFraud Logo">
     </div>
   </header>  <section class="hero">
     <h2>Evite golpes e fraudes: proteja sua empresa agora e sua família</h2>
