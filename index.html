@@ -151,13 +151,14 @@
   </section>  <section class="form-section">
     <h3>Cadastre-se para a pré-venda exclusiva</h3>
     <p>Preencha o formulário abaixo para demonstrar interesse em adquirir o ShieldFraud antes do lançamento oficial. Estimativa de lançamento: até 90 dias. Você será avisado com prioridade e poderá garantir sua unidade com bônus exclusivo de fundador.</p>
-    <form>
-      <input type="text" placeholder="Nome completo" required><br>
-      <input type="email" placeholder="Seu e-mail" required><br>
-      <input type="tel" placeholder="Telefone com DDD" required><br>
-      <textarea placeholder="Mensagem ou dúvida (opcional)"></textarea><br>
-      <button type="submit">Quero reservar minha vaga</button>
-    </form>
+    <form action="https://formsubmit.co/shieldfraud@proton.me" method="POST">
+  <input type="hidden" name="_next" value="https://shieldfraud.github.io/ShieldFraud-Landing">
+  <input type="text" name="nome" placeholder="Nome completo" required><br>
+  <input type="email" name="email" placeholder="Seu e-mail" required><br>
+  <input type="tel" name="telefone" placeholder="Telefone com DDD" required><br>
+  <textarea name="mensagem" placeholder="Mensagem ou dúvida (opcional)"></textarea><br>
+  <button type="submit">Quero reservar minha vaga</button>
+</form>
   </section>  <footer>
     <h3>Termos de Uso</h3>
     <p>O ShieldFraud é uma solução voltada à segurança digital. Ao utilizar esta página, você concorda em fornecer dados que serão tratados de forma segura, conforme nossa política de privacidade e em respeito à LGPD.</p><h3>Política de Privacidade</h3>
